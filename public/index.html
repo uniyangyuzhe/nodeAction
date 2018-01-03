@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>yyzs chart room</title>
+    <link rel="stylesheet" href="stylesheets/style.css">
+</head>
+<body>
+    <div id="content">
+        <div id="room"></div>
+        <div id="room-list"></div>
+        <div id="message"></div>
+        <form action="" id="send-form">
+            <input type="text" id="senmessage">
+            <input type="submit" id="send-button" value="Send">
+            <div id="help">
+                Chat commands:
+                <ul>
+                    <li>Change nick name : <code>/nick [userName]</code> </li>
+                    <li>join/creat room: <code>/join [roomName]</code> </li>
+                </ul>
+            </div>
+        </form>
+    </div>
+    <script src="/sokect.io/sokect.io.js" type="text/javascript"></script>
+    <script src="http://code.jquery.com/jquery-1.8.0.min.js" type="text/javascript"></script>
+    <script src="/javascripts/chat.js" type="text/javascript"></script>
+    <script src="/javascripts/chat_ui.js" type="text/javascript"></script>
+</body>
+</html>
